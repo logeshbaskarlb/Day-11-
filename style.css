@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.conatiner {
+  height: 100%;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+h1,
+h3 {
+  text-align: center;
+}
+img {
+  border: 2px solid black;
+  padding: 10px;
+  height: 150px;
+}
+.box-2 {
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+.colm-2 {
+  display: block;
+  flex-wrap: wrap;
+}
+.box-2,
+.colm-2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
